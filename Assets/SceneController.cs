@@ -18,6 +18,9 @@ public class SceneController : MonoBehaviour {
 	}
 
 	public void ToHome () {
-	    SceneManager.LoadScene("Scenes/lottery");
+	    if (OpenAnswer.getAnsDone()){
+	        SceneManager.LoadScene("Scenes/lottery");
+	        OpenAnswer.setAnsDone(false);
+	    }
 	}
 }

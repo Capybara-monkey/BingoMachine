@@ -17,7 +17,7 @@ public class ChangeImage : MonoBehaviour {
         if (!quiz){
             quiz = true;
             System.Random r = new System.Random();
-            id = r.Next(1,7);
+            id = r.Next(1,22);
             if (!done.Contains(id)){
                 done.Add(id);
                 len += 1;
