@@ -406,7 +406,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6B21\u306E\u554F\u984C"
+  m_Text: Next Quiz
 --- !u!222 &363630073
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -806,7 +806,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u56DE\u7B54"
+  m_Text: Answer
 --- !u!222 &1393030478
 CanvasRenderer:
   m_ObjectHideFlags: 0
