@@ -57,4 +57,8 @@ public class ChangeImage : MonoBehaviour {
     public static void setQuiz(bool tf){
         quiz = tf;
     }
+
+    public static int getLen(){
+        return len;
+    }
 }
